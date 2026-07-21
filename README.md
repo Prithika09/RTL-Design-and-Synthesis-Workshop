@@ -76,7 +76,21 @@ RTL_Workshop/
 │
 ├── Day_2/
 │   ├── README.md
-│   └── ...
+│   ├── timing_libraries/
+│       ├── notes.md
+│       └── screenshots/
+|   ├── synthesis/
+│       ├── hierarchical/
+│       ├── flattened/
+│       └── screenshots/
+|   ├── sequential_logic/
+│       ├── dff_async_reset.v
+│       ├── dff_async_set.v
+│       ├── dff_sync_reset.v
+│       ├── testbenches/
+│       └── screenshots/
+|   ├── synthesized_netlists/
+│       └── images/
 │
 ├── Day_3/
 │   └── ...
@@ -93,7 +107,7 @@ RTL_Workshop/
 | Day | Topics | Status |
 |-----|--------|--------|
 | Day 1 | RTL Design Flow, Verilog, Simulation, GTKWave, Yosys | ✅ Completed |
-| Day 2 | RTL Synthesis & Timing Libraries | ⏳ In Progress |
+| Day 2 | RTL Synthesis & Timing Libraries | ✅ Completed |
 | Day 3 | Combinational Logic Optimization | ⏳ Upcoming |
 | Day 4 | Sequential Logic | ⏳ Upcoming |
 | Day 5 | Logic Optimization Techniques | ⏳ Upcoming |
