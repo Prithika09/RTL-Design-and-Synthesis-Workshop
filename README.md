@@ -77,22 +77,73 @@ RTL_Workshop/
 ├── Day_2/
 │   ├── README.md
 │   ├── timing_libraries/
-│       ├── notes.md
+│   │   ├── notes.md
+│   │   └── screenshots/
+│   ├── synthesis/
+│   │   ├── hierarchical/
+│   │   ├── flattened/
+│   │   └── screenshots/
+│   ├── sequential_logic/
+│   │   ├── dff_async_reset.v
+│   │   ├── dff_async_set.v
+│   │   ├── dff_sync_reset.v
+│   │   ├── testbenches/
+│   │   └── screenshots/
+│   └── synthesized_netlists/
 │       └── screenshots/
-|   ├── synthesis/
-│       ├── hierarchical/
-│       ├── flattened/
-│       └── screenshots/
-|   ├── sequential_logic/
-│       ├── dff_async_reset.v
-│       ├── dff_async_set.v
-│       ├── dff_sync_reset.v
-│       ├── testbenches/
-│       └── screenshots/
-|   ├── synthesized_netlists/
-│       └── images/
 │
 ├── Day_3/
+│   ├── README.md
+│   ├── optimization/
+│   ├── synthesis/
+│   ├── netlists/
+│   └── screenshots/
+│
+├── Day_4/
+│   ├── README.md
+│   │
+│   ├── Lab_1_Ternary_MUX/
+│   │   ├── ternary_operator_mux.v
+│   │   ├── tb_ternary_operator_mux.v
+│   │   ├── ternary_operator_mux_netlist.v
+│   │   └── screenshots/
+│   │
+│   ├── Lab_2_MUX_Synthesis/
+│   │   ├── synthesis_notes.md
+│   │   └── screenshots/
+│   │
+│   ├── Lab_3_Gate_Level_Simulation/
+│   │   ├── gls_commands.md
+│   │   └── screenshots/
+│   │
+│   ├── Lab_4_Bad_MUX/
+│   │   ├── bad_mux.v
+│   │   ├── tb_bad_mux.v
+│   │   ├── bad_mux_netlist.v
+│   │   └── screenshots/
+│   │
+│   ├── Lab_5_Bad_MUX_GLS/
+│   │   ├── gls_notes.md
+│   │   └── screenshots/
+│   │
+│   ├── Lab_6_Blocking_Caveat/
+│   │   ├── blocking_caveat.v
+│   │   ├── tb_blocking_caveat.v
+│   │   ├── blocking_caveat_netlist.v
+│   │   └── screenshots/
+│   │
+│   ├── Lab_7_Blocking_Caveat_Correct/
+│   │   ├── blocking_caveat_correct.v
+│   │   ├── tb_blocking_caveat_correct.v
+│   │   ├── blocking_caveat_correct_netlist.v
+│   │   └── screenshots/
+│   │
+│   └── synthesized_netlists/
+│       ├── ternary_operator_mux_netlist.v
+│       ├── bad_mux_netlist.v
+│       ├── blocking_caveat_netlist.v
+│       └── blocking_caveat_correct_netlist.v
+├── Day_5/
 │   └── ...
 │
 ├── screenshots/
@@ -108,8 +159,8 @@ RTL_Workshop/
 |-----|--------|--------|
 | Day 1 | RTL Design Flow, Verilog, Simulation, GTKWave, Yosys | ✅ Completed |
 | Day 2 | RTL Synthesis & Timing Libraries | ✅ Completed |
-| Day 3 | Combinational Logic Optimization | ⏳ Upcoming |
-| Day 4 | Sequential Logic | ⏳ Upcoming |
+| Day 3 | Combinational Logic Optimization | ✅ Completed  |
+| Day 4 | Sequential Logic | ✅ Completed |
 | Day 5 | Logic Optimization Techniques | ⏳ Upcoming |
 
 ---
