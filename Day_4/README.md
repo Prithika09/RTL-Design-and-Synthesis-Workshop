@@ -112,8 +112,9 @@ vvp sim_mux_ternary.out
 
 gtkwave tb_mux_ternary.vcd
 ```
-<img width="1600" height="839" alt="image" src="https://github.com/user-attachments/assets/907701f3-62a6-4aca-bfba-c59be1965f45" />
-<img width="1042" height="787" alt="image" src="https://github.com/user-attachments/assets/da23d2c7-956f-4acf-af5b-557a718942b5" />
+<img width="1600" height="839" alt="image" src="https://github.com/user-attachments/assets/282b5fca-e781-44fe-a5ef-a3918f7d64e0" />
+
+<img width="1042" height="787" alt="image" src="https://github.com/user-attachments/assets/3593765c-af94-4766-824f-7850a2b74ac2" />
 
 ### Yosys Synthesis
 
@@ -132,8 +133,9 @@ show
 
 exit
 ```
-<img width="608" height="551" alt="image" src="https://github.com/user-attachments/assets/948dddc8-869e-437e-8925-c76dbae116b9" />
-<img width="1600" height="846" alt="image" src="https://github.com/user-attachments/assets/9b6c62de-d955-4e9e-8dbf-9efd45d8a68c" />
+<img width="1600" height="847" alt="image" src="https://github.com/user-attachments/assets/95f9dbff-5522-4c6f-8547-4ae4fc2f52b3" />
+<img width="608" height="551" alt="image" src="https://github.com/user-attachments/assets/62d47c94-746c-48f1-9dd4-ede034a480b7" />
+
 
 ### Gate-Level Simulation
 
@@ -148,7 +150,8 @@ vvp gls_mux_ternary.out
 
 gtkwave tb_mux_ternary.vcd
 ```
-<img width="1600" height="847" alt="image" src="https://github.com/user-attachments/assets/7a781eae-a99f-4c94-9b0e-d7f50311c2d8" />
+<img width="1600" height="846" alt="image" src="https://github.com/user-attachments/assets/c2bc4160-37be-4d6b-8bdc-c7ee2b2897f0" />
+
 
 ### Result
 
@@ -226,7 +229,7 @@ vvp sim_bad_mux.out
 
 gtkwave tb_bad_mux.vcd
 ```
-<img width="1600" height="849" alt="image" src="https://github.com/user-attachments/assets/0c7a2da9-88fc-46b6-865b-262d85682006" />
+<img width="1600" height="852" alt="image" src="https://github.com/user-attachments/assets/30e9688c-99f6-46c6-afbb-ac26d9938d7a" />
 
 ### Yosys Synthesis
 
@@ -245,7 +248,9 @@ show
 
 exit
 ```
-<img width="607" height="652" alt="image" src="https://github.com/user-attachments/assets/e65da272-f565-4169-be34-749aabbd9a7f" />
+<img width="1600" height="849" alt="image" src="https://github.com/user-attachments/assets/6ba2203f-ae87-42c9-a245-d5bd6212def4" />
+<img width="607" height="652" alt="image" src="https://github.com/user-attachments/assets/553696f1-8cc7-4063-a7f7-bb661fec3ee4" />
+
 
 
 ### Gate-Level Simulation
@@ -261,7 +266,7 @@ vvp gls_bad_mux.out
 
 gtkwave tb_bad_mux.vcd
 ```
-<img width="1600" height="844" alt="image" src="https://github.com/user-attachments/assets/843b4048-8cd3-4e2d-8c59-7af2275c10f3" />
+<img width="1600" height="844" alt="image" src="https://github.com/user-attachments/assets/283a6a28-cdf7-44d7-83a9-e529d60f174c" />
 
 ### Result
 
@@ -337,7 +342,8 @@ vvp sim_good_mux.out
 
 gtkwave tb_good_mux.vcd
 ````
-<img width="1600" height="844" alt="image" src="https://github.com/user-attachments/assets/7826b2e2-8853-4985-b098-e7274d95b084" />
+<img width="1600" height="841" alt="image" src="https://github.com/user-attachments/assets/36fb1e67-26dd-42db-91b2-c87e9eb9432e" />
+
 
 Yosys
 ````
@@ -355,8 +361,8 @@ show
 
 exit
 ````
-<img width="1600" height="839" alt="image" src="https://github.com/user-attachments/assets/95bf1f18-3e48-455e-a119-69bf2ccf6369" />
-<img width="615" height="654" alt="image" src="https://github.com/user-attachments/assets/89422728-4ba4-4c1c-8e80-c4b3572fb4d2" />
+<img width="1600" height="839" alt="image" src="https://github.com/user-attachments/assets/46a83313-c884-427a-bb2d-451b47537e2b" />
+<img width="615" height="654" alt="image" src="https://github.com/user-attachments/assets/69c109e4-31dd-4e1d-a5b8-066a2657e4e7" />
 
 GLS
 ````
@@ -371,6 +377,7 @@ vvp gls_good_mux.out
 gtkwave tb_good_mux.vcd
 ````
 
+<img width="1600" height="844" alt="image" src="https://github.com/user-attachments/assets/d0e1a900-a097-4278-8662-cace6af7b379" />
 
 Result
 
@@ -445,7 +452,7 @@ vvp sim_blocking_caveat.out
 
 gtkwave tb_blocking_caveat.vcd
 ```
-<img width="1600" height="848" alt="image" src="https://github.com/user-attachments/assets/b1fd04fe-64ef-49d1-aecb-b38a52465a5f" />
+<img width="1600" height="848" alt="image" src="https://github.com/user-attachments/assets/c89b5d34-b2b3-4173-b2b2-ed42f9678d37" />
 
 ### Yosys
 
@@ -464,7 +471,8 @@ show
 
 exit
 ```
-<img width="1600" height="850" alt="image" src="https://github.com/user-attachments/assets/4f9a01df-a35d-41b2-9c07-ecb9b1fcccd6" />
+<img width="1600" height="850" alt="image" src="https://github.com/user-attachments/assets/cc417e60-1cab-4ba6-94fc-84ed2dd782e6" />
+
 
 ### GLS
 
@@ -479,6 +487,7 @@ vvp gls_blocking_caveat.out
 
 gtkwave tb_blocking_caveat.vcd
 ```
+<img width="1600" height="851" alt="image" src="https://github.com/user-attachments/assets/e07306a9-a892-4ac1-8efa-8985dfe03304" />
 
 
 ### Result
@@ -566,8 +575,9 @@ vvp sim_blocking_caveat_correct.out
 
 gtkwave blocking_caveat_correct.vcd
 ```
+<img width="1600" height="839" alt="image" src="https://github.com/user-attachments/assets/9a8a31ea-4615-4145-b89d-a0ec3df80ed9" />
 
-<img width="601" height="640" alt="image" src="https://github.com/user-attachments/assets/d6ccb53c-d0e8-4756-b45e-75de50b02ec2" />
+
 
 ### Yosys
 
@@ -586,10 +596,10 @@ show
 
 exit
 ```
+<img width="601" height="640" alt="image" src="https://github.com/user-attachments/assets/58139464-7c92-4dcf-b421-87a5db65a364" />
 
-<img width="1600" height="839" alt="image" src="https://github.com/user-attachments/assets/cf50a6a6-ffbe-4dc8-acf2-96c1c8ec7e00" />
 
-
+<img width="1600" height="846" alt="image" src="https://github.com/user-attachments/assets/a4bef5d3-5be2-4458-8a46-3bfcb8108806" />
 
 
 ### GLS
@@ -605,7 +615,8 @@ vvp gls_blocking_caveat_correct.out
 
 gtkwave blocking_caveat_correct.vcd
 ```
-<img width="1600" height="849" alt="image" src="https://github.com/user-attachments/assets/085cb4e1-a5e9-4cd8-9f4d-27412e1b94cb" />
+<img width="1600" height="849" alt="image" src="https://github.com/user-attachments/assets/348f6f06-070d-4040-8247-b7d7ff4a8dfd" />
+
 
 
 ### Result
